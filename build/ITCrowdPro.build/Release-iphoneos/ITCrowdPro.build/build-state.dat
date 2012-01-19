@@ -1,0 +1,1435 @@
+TITCrowdPro
+v7
+r0
+t326528969.340616
+cCheck dependencies
+cCpResource build/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/Info.plist ITCrowdPro-Info.plist
+cCompileXIB /Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib
+cCpResource build/Release-iphoneos/ITCrowdPro.app/InfoBanner.jpg InfoBanner.jpg
+cCpResource build/Release-iphoneos/ITCrowdPro.app/ITCrowdLaunchImage.jpg ITCrowdLaunchImage.jpg
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png ads_icon_black_small.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png info_icon_black_glossy_small.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png navigation_icon_black_small.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/flyers.png flyers.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/review.png review.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png ITCrowdIcon_normal.png
+cCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png ITCrowdIcon_normal@2x.png
+cProcessPCH /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch.gch ITCrowdPro_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch.gch ITCrowdPro_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/main.o /Users/sanchitbareja/Documents/ITCrowdPro/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdProAppDelegate.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/UploadFlyersViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ReviewViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/TourGuideViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/EateriesViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/AboutUsController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/DetailViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsAnnotation.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/asyncimageview.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/MyXMLParser.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsCalloutView.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSString+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonBase.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonParser.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonWriter.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro normal armv6
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/main.o /Users/sanchitbareja/Documents/ITCrowdPro/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdProAppDelegate.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/UploadFlyersViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ReviewViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/TourGuideViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/EateriesViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/AboutUsController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/DetailViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsAnnotation.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/asyncimageview.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/MyXMLParser.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsCalloutView.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSString+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonBase.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonParser.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonWriter.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro normal armv7
+cCreateUniversalBinary /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro normal "armv6 armv7"
+cGenerateDSYMFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app.dSYM /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro
+cProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision" /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+cTouch /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent
+cCodeSign /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+cValidate /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004CC11D48000000000000027E
+t1287724360
+s638
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/unistd.h
+c000000004CB3E4B8000000000000563E
+t1286857912
+s22078
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.h
+c000000004D8B242C000000000000013A
+t1300964396
+s314
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m
+c000000004D91AC360000000000000990
+t1301392438
+s2448
+i"AboutUsController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.h
+c000000004D8B56E80000000000000179
+t1300977384
+s377
+i<Foundation/Foundation.h>
+i"asyncimageview.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m
+c000000004D8C1E93000000000000040E
+t1301028499
+s1038
+i"DetailViewController.h"
+i"asyncimageview.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.h
+c000000004DC63636000000000000047C
+t1304835638
+s1148
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i<MapKit/MKAnnotation.h>
+i<CoreLocation/CoreLocation.h>
+i"asyncimageview.h"
+i"JSON.h"
+i"adsAnnotation.h"
+i"adsCalloutView.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m
+c000000004DC636150000000000003A6E
+t1304835605
+s14958
+i"EateriesViewController.h"
+i<MapKit/MapKit.h>
+i<unistd.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.h
+c000000004D91AE450000000000000172
+t1301392965
+s370
+i<UIKit/UIKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m
+c000000004D91AE8B0000000000001238
+t1301393035
+s4664
+i"ITCrowdProAppDelegate.h"
+i"UploadFlyersViewController.h"
+i"ReviewViewController.h"
+i"TourGuideViewController.h"
+i"EateriesViewController.h"
+i"AboutUsController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.h
+c000000004D8B758C0000000000000190
+t1300985228
+s400
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m
+c000000004D8C4DA50000000000000611
+t1301040549
+s1553
+i"MyXMLParser.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.h
+c000000004D970DA70000000000000192
+t1301745063
+s402
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m
+c000000004D970DA10000000000000DEC
+t1301745057
+s3564
+i"ReviewViewController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.h
+c000000004DC637E6000000000000023D
+t1304836070
+s573
+i<Foundation/Foundation.h>
+i"asyncimageview.h"
+i"MyXMLParser.h"
+i"DetailViewController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m
+c000000004DC6374000000000000011E8
+t1304835904
+s4584
+i"TourGuideViewController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.h
+c000000004D88D38C00000000000004A1
+t1300812684
+s1185
+i<Foundation/Foundation.h>
+i"asyncimageview.h"
+i"MyXMLParser.h"
+i"DetailViewController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m
+c000000004DF2DC6F0000000000003EA0
+t1307761775
+s16032
+i"UploadFlyersViewController.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.h
+c000000004D8A120A00000000000002EC
+t1300894218
+s748
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m
+c000000004D8A12160000000000000218
+t1300894230
+s536
+i"adsAnnotation.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.h
+c000000004D7F87AA000000000000023F
+t1300203434
+s575
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m
+c000000004D7F87130000000000000A70
+t1300203283
+s2672
+i"adsCalloutView.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.h
+c000000004D75BA5B00000000000003DE
+t1299561051
+s990
+i<UIKit/UIKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m
+c000000004D8B805D0000000000001273
+t1300987997
+s4723
+i"AsyncImageView.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon.jpg
+c000000004D89BB5E000000000000DDCB
+t1300872030
+s56779
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal.png
+c000000004D9AB0A50000000000000D0F
+t1301983397
+s3343
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal@2x.png
+c000000004D9AB0770000000000001A12
+t1301983351
+s6674
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdLaunchImage.jpg
+c000000004D8C52E4000000000001D1D0
+t1301041892
+s119248
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro_Prefix.pch
+c000000004D91AC9700000000000000BD
+t1301392535
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/InfoBanner.jpg
+c000000004D8C4DCA000000000007C321
+t1301040586
+s508705
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/JSON.h
+c000000004B66F9CA00000000000008F9
+t1265039818
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.h
+c000000004B66F9CA0000000000000A01
+t1265039818
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m
+c000000004B66F9CA000000000000089E
+t1265039818
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.h
+c000000004B66F9CA0000000000000916
+t1265039818
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m
+c000000004B66F9CA000000000000087D
+t1265039818
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.h
+c000000004B66F9CA0000000000000AED
+t1265039818
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m
+c000000004B66F9CA0000000000001ABC
+t1265039818
+s6844
+i"SBJSON.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.h
+c000000004B66F9CA0000000000000B82
+t1265039818
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m
+c000000004B66F9CA0000000000000AC1
+t1265039818
+s2753
+i"SBJsonBase.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.h
+c000000004B66F9CA0000000000000C0B
+t1265039818
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m
+c000000004B66F9CA00000000000036CF
+t1265039818
+s14031
+i"SBJsonParser.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.h
+c000000004B66F9CA0000000000001140
+t1265039818
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m
+c000000004B66F9CA0000000000001E83
+t1265039818
+s7811
+i"SBJsonWriter.h"
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib
+c000000004D91AC970000000000002117
+t1301392535
+s8471
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/ads_icon_black_small.png
+c000000004D89E21B0000000000000D5F
+t1300881947
+s3423
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent
+t1304836169
+s431
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/AboutUsController.o
+t1301980898
+s46556
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/DetailViewController.o
+t1301980898
+s42596
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/EateriesViewController.o
+t1304835923
+s88680
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro
+t1304836081
+s117760
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro.LinkFileList
+c000000004D9AA6DF00000000000009B9
+t1301980895
+s2489
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdProAppDelegate.o
+t1304836081
+s60780
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/MyXMLParser.o
+t1301980898
+s16856
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1301980898
+s8524
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSString+SBJSON.o
+t1301980898
+s8448
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ReviewViewController.o
+t1301980898
+s52300
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJSON.o
+t1301980899
+s18712
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonBase.o
+t1301980899
+s12952
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonParser.o
+t1301980899
+s31200
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonWriter.o
+t1301980899
+s22440
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/TourGuideViewController.o
+t1304836081
+s56376
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/UploadFlyersViewController.o
+t1304835923
+s95656
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsAnnotation.o
+t1301980898
+s13840
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsCalloutView.o
+t1301980898
+s44080
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/asyncimageview.o
+t1301980898
+s53052
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/main.o
+t1301980898
+s6516
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/AboutUsController.o
+t1301980899
+s46264
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/DetailViewController.o
+t1301980899
+s42572
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/EateriesViewController.o
+t1304835924
+s88392
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro
+t1304836081
+s117284
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro.LinkFileList
+c000000004D9AA6DF00000000000009B9
+t1301980895
+s2489
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdProAppDelegate.o
+t1304836081
+s60780
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/MyXMLParser.o
+t1301980900
+s16844
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1301980900
+s8564
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSString+SBJSON.o
+t1301980900
+s8488
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ReviewViewController.o
+t1301980899
+s52284
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJSON.o
+t1301980900
+s18744
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonBase.o
+t1301980900
+s12952
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonParser.o
+t1301980900
+s30964
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonWriter.o
+t1301980900
+s22260
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/TourGuideViewController.o
+t1304836081
+s56332
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/UploadFlyersViewController.o
+t1304835924
+s95212
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsAnnotation.o
+t1301980899
+s13872
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsCalloutView.o
+t1301980900
+s44012
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/asyncimageview.o
+t1301980900
+s52744
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/main.o
+t1301980899
+s6496
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+t1304836169
+s680
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app.dSYM
+t1304836081
+s102
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon.jpg
+t1301980896
+s56779
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png
+t1301996054
+s4316
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png
+t1301996054
+s9367
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdLaunchImage.jpg
+t1301980895
+s119248
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro
+t1304836081
+s254752
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/Info.plist
+t1304836169
+s1078
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/InfoBanner.jpg
+t1301980895
+s508705
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/MainWindow.nib
+t1301980896
+s987
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/PkgInfo
+t1304836169
+s8
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist
+t1301980895
+s485
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png
+t1301980896
+s3363
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+t1301996207
+s7085
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/flyers.png
+t1301980896
+s1452
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png
+t1301980896
+s3210
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png
+t1301980896
+s3526
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/review.png
+t1301980896
+s974
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/flyers.png
+c000000004D5E836B000000000000050F
+t1298039659
+s1295
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/info_icon_black_glossy_small.png
+c000000004D89E1FD0000000000000CD7
+t1300881917
+s3287
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/main.m
+c000000004D91AC970000000000000165
+t1301392535
+s357
+i<UIKit/UIKit.h>
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/navigation_icon_black_small.png
+c000000004D89E2410000000000000DE7
+t1300881985
+s3559
+
+N/Users/sanchitbareja/Documents/ITCrowdPro/review.png
+c000000004D5E76BB0000000000000427
+t1298036411
+s1063
+
+N/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision
+c000000004D9AE1CF0000000000001BAD
+t1301995983
+s7085
+
+N/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/AE17B948-27AC-4E9E-AA72-5FD117E88A8A.mobileprovision
+c000000004D69CC1B0000000000001BFD
+t1298779163
+s7165
+
+N/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/C829BD41-C60F-461E-BB63-A6D212621417.mobileprovision
+c000000004D8ACE360000000000001CB9
+t1300942390
+s7353
+
+N/var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch.gch
+t1301980897
+s10249944
+
+N/var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch.gch
+t1301980897
+s9783000
+
+NITCrowdPro-Info.plist
+c000000004DC6384800000000000004D8
+t1304836168
+s1240
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326528968#326528969#0(0"0(0#1#0"9007697477435492#0"0#
+
+CCodeSign /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+s326528969.042077
+e326528969.227856
+r1
+xCodeSign
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+o/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app: replacing invalid existing signature
+lSLF07#2@46"CodeSign build/Release-iphoneos/ITCrowdPro.app326528969#326528969#0(118"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app: replacing invalid existing signature0(0#0#79"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app8633729568#673"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Sanchit Bareja" --resource-rules=/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist --entitlements /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/AboutUsController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.201499
+e323673698.541712
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/AboutUsController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m323673698#323673698#0(0"0(0#0#69"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m8611599520#1893"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/AboutUsController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/DetailViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.540057
+e323673698.660391
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/DetailViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m323673698#323673698#0(0"0(0#0#72"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m7162247752870487040#1899"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/DetailViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/EateriesViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326528723.046735
+e326528723.908840
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/EateriesViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController mapView:viewForAnnotation:]':
+o/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:187: warning: '-indexToLoad' not found in protocol(s)
+lSLF07#2@82"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m326528723#326528723#0(273"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController mapView:viewForAnnotation:]':/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:187: warning: '-indexToLoad' not found in protocol(s)1(22@39"'-indexToLoad' not found in protocol(s)326528723#144#129#0(6@74"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m326528405#187#0#187#0#28"'*' not found in protocol(s)0(0#0#74"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m8632025024#1903"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/EateriesViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdProAppDelegate.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326528880.979984
+e326528881.215109
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdProAppDelegate.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m326528880#326528881#0(0"0(0#0#73"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m8629022720#1901"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdProAppDelegate.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/MyXMLParser.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.660540
+e323673698.790646
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/MyXMLParser.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m323673698#323673698#0(0"0(0#0#63"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m8611433984#1881"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/MyXMLParser.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.790788
+e323673698.877970
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m323673698#323673698#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m8611157536#1886"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSString+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.860303
+e323673698.941420
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m323673698#323673698#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m8610579392#1886"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ReviewViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673697.867506
+e323673698.201354
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ReviewViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m323673697#323673698#0(0"0(0#0#72"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m8609946432#1899"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ReviewViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.878103
+e323673699.110542
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m323673698#323673699#0(0"0(0#0#55"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m8610458432#1868"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonBase.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.884798
+e323673699.032731
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m323673698#323673699#0(0"0(0#0#59"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m8610065504#1876"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonParser.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.902014
+e323673699.330728
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m323673698#323673699#0(0"0(0#0#61"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m8609805408#1880"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonWriter.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.941573
+e323673699.240414
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m323673698#323673699#0(0"0(0#0#61"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m8607917504#1880"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/TourGuideViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326528880.982343
+e326528881.303759
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/TourGuideViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m326528880#326528881#0(0"0(0#0#75"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m8624295904#1905"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/TourGuideViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/UploadFlyersViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326528722.942023
+e326528723.709138
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/UploadFlyersViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m326528722#326528723#0(0"0(0#0#78"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m8631737152#1911"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/UploadFlyersViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsAnnotation.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.541834
+e323673698.646169
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsAnnotation.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m323673698#323673698#0(0"0(0#0#65"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m8608277088#1885"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsAnnotation.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsCalloutView.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.677621
+e323673698.860140
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsCalloutView.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m323673698#323673698#0(0"0(0#0#66"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m8612867520#1887"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/adsCalloutView.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/asyncimageview.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673698.646312
+e323673698.901848
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/asyncimageview.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m323673698#323673698#0(0"0(0#0#66"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m8608119616#1887"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/asyncimageview.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/main.o /Users/sanchitbareja/Documents/ITCrowdPro/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673697.862800
+e323673698.078828
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/main.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/sanchitbareja/Documents/ITCrowdPro/main.m323673697#323673698#0(0"0(0#0#48"/Users/sanchitbareja/Documents/ITCrowdPro/main.m8610612992#1859"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/main.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/AboutUsController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.641744
+e323673699.813261
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/AboutUsController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m323673699#323673699#0(0"0(0#0#69"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m8610659136#1893"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/AboutUsController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/AboutUsController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/DetailViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.749759
+e323673699.870800
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/DetailViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m323673699#323673699#0(0"0(0#0#72"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m8610290304#1899"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/DetailViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/DetailViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/EateriesViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326528723.709291
+e326528724.341506
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/EateriesViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController mapView:viewForAnnotation:]':
+o/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:187: warning: '-indexToLoad' not found in protocol(s)
+lSLF07#2@82"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m326528723#326528724#0(273"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController mapView:viewForAnnotation:]':/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:187: warning: '-indexToLoad' not found in protocol(s)1(22@39"'-indexToLoad' not found in protocol(s)326528723#144#129#0(6@74"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m326528405#187#0#187#0#28"'*' not found in protocol(s)0(0#0#74"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m8630143840#1903"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/EateriesViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdProAppDelegate.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326528880.985489
+e326528881.207265
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdProAppDelegate.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m326528880#326528881#0(0"0(0#0#73"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m8635420256#1901"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ITCrowdProAppDelegate.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdProAppDelegate.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/MyXMLParser.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.912236
+e323673700.060219
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/MyXMLParser.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m323673699#323673700#0(0"0(0#0#63"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m8607926496#1881"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/MyXMLParser.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/MyXMLParser.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.034938
+e323673700.124455
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m323673700#323673700#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m8610412736#1886"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSObject+SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSString+SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.060372
+e323673700.149392
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m323673700#323673700#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m8609986752#1886"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/NSString+SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ReviewViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.240683
+e323673699.451190
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ReviewViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m323673699#323673699#0(0"0(0#0#72"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m8611539840#1899"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/ReviewViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ReviewViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJSON.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.114988
+e323673700.315750
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJSON.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m323673700#323673700#0(0"0(0#0#55"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m8611813088#1868"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJSON.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJSON.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonBase.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.124612
+e323673700.267736
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m323673700#323673700#0(0"0(0#0#59"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m8611591904#1876"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonBase.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonParser.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.149538
+e323673700.456113
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m323673700#323673700#0(0"0(0#0#61"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m8611243328#1880"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonParser.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonWriter.o /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673700.164188
+e323673700.405068
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m323673700#323673700#0(0"0(0#0#61"/Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m8610850240#1880"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/JSON/SBJsonWriter.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/TourGuideViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326528880.987665
+e326528881.305004
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/TourGuideViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m326528880#326528881#0(0"0(0#0#75"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m8635481376#1905"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/TourGuideViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/TourGuideViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/UploadFlyersViewController.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326528723.360117
+e326528724.079412
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/UploadFlyersViewController.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m326528723#326528724#0(0"0(0#0#78"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m8631327872#1911"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/UploadFlyersViewController.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/UploadFlyersViewController.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsAnnotation.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.813401
+e323673699.912096
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsAnnotation.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m323673699#323673699#0(0"0(0#0#65"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m8609947680#1885"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsAnnotation.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsAnnotation.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsCalloutView.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.965906
+e323673700.164041
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsCalloutView.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m323673699#323673700#0(0"0(0#0#66"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m8611177728#1887"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/adsCalloutView.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/adsCalloutView.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/asyncimageview.o /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.870941
+e323673700.114826
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/asyncimageview.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m323673699#323673700#0(0"0(0#0#66"/Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m8608340256#1887"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/Classes/asyncimageview.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/asyncimageview.o0#
+
+CCompileC build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/main.o /Users/sanchitbareja/Documents/ITCrowdPro/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673699.032885
+e323673699.105686
+r1
+xCompileC
+xbuild/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/main.o
+x/Users/sanchitbareja/Documents/ITCrowdPro/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/sanchitbareja/Documents/ITCrowdPro/main.m323673699#323673699#0(0"0(0#0#48"/Users/sanchitbareja/Documents/ITCrowdPro/main.m8611457376#1859"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch -c /Users/sanchitbareja/Documents/ITCrowdPro/main.m -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib
+s323673695.861306
+e323673696.373362
+r1
+xCompileXIB
+x/Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323673695#323673696#0(0"0(0#0#56"/Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib8611462624#556"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/MainWindow.nib /Users/sanchitbareja/Documents/ITCrowdPro/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png ITCrowdIcon_normal.png
+s323688854.273394
+e323688854.304056
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png
+xITCrowdIcon_normal.png
+lSLF07#2@95"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png ITCrowdIcon_normal.png323688854#323688854#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal.png8611921952#598"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png ITCrowdIcon_normal@2x.png
+s323688854.274965
+e323688854.313849
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png
+xITCrowdIcon_normal@2x.png
+lSLF07#2@101"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png ITCrowdIcon_normal@2x.png323688854#323688854#0(0"0(0#0#67"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal@2x.png8611735680#604"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon_normal@2x.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon_normal@2x.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png ads_icon_black_small.png
+s323673695.864563
+e323673696.085702
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png
+xads_icon_black_small.png
+lSLF07#2@99"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png ads_icon_black_small.png323673695#323673696#0(0"0(0#0#66"/Users/sanchitbareja/Documents/ITCrowdPro/ads_icon_black_small.png8611169216#602"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/ads_icon_black_small.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ads_icon_black_small.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/flyers.png flyers.png
+s323673696.049644
+e323673696.121341
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/flyers.png
+xflyers.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/flyers.png flyers.png323673696#323673696#0(0"0(0#0#52"/Users/sanchitbareja/Documents/ITCrowdPro/flyers.png8604109088#574"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/flyers.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/flyers.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png info_icon_black_glossy_small.png
+s323673695.934826
+e323673696.048568
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png
+xinfo_icon_black_glossy_small.png
+lSLF07#2@115"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png info_icon_black_glossy_small.png323673695#323673696#0(0"0(0#0#74"/Users/sanchitbareja/Documents/ITCrowdPro/info_icon_black_glossy_small.png8611038560#618"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/info_icon_black_glossy_small.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/info_icon_black_glossy_small.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png navigation_icon_black_small.png
+s323673696.009904
+e323673696.050625
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png
+xnavigation_icon_black_small.png
+lSLF07#2@113"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png navigation_icon_black_small.png323673696#323673696#0(0"0(0#0#73"/Users/sanchitbareja/Documents/ITCrowdPro/navigation_icon_black_small.png8610865088#616"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/navigation_icon_black_small.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/navigation_icon_black_small.png0#
+
+CCopyPNGFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/review.png review.png
+s323673696.085840
+e323673696.122186
+r1
+xCopyPNGFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/review.png
+xreview.png
+lSLF07#2@71"CopyPNGFile build/Release-iphoneos/ITCrowdPro.app/review.png review.png323673696#323673696#0(0"0(0#0#52"/Users/sanchitbareja/Documents/ITCrowdPro/review.png8601986880#574"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sanchitbareja/Documents/ITCrowdPro/review.png /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/review.png0#
+
+CCpResource build/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon.jpg ITCrowdIcon.jpg
+s323673696.048699
+e323673696.115215
+r1
+xCpResource
+xbuild/Release-iphoneos/ITCrowdPro.app/ITCrowdIcon.jpg
+xITCrowdIcon.jpg
+lSLF07#2@20"Copy ITCrowdIcon.jpg323673696#323673696#0(0"0(0#0#57"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon.jpg8606675040#494"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdIcon.jpg /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CCpResource build/Release-iphoneos/ITCrowdPro.app/ITCrowdLaunchImage.jpg ITCrowdLaunchImage.jpg
+s323673695.863442
+e323673695.934688
+r1
+xCpResource
+xbuild/Release-iphoneos/ITCrowdPro.app/ITCrowdLaunchImage.jpg
+xITCrowdLaunchImage.jpg
+lSLF07#2@27"Copy ITCrowdLaunchImage.jpg323673695#323673695#0(0"0(0#0#64"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdLaunchImage.jpg8611261376#501"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdLaunchImage.jpg /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CCpResource build/Release-iphoneos/ITCrowdPro.app/InfoBanner.jpg InfoBanner.jpg
+s323673695.862521
+e323673696.009777
+r1
+xCpResource
+xbuild/Release-iphoneos/ITCrowdPro.app/InfoBanner.jpg
+xInfoBanner.jpg
+lSLF07#2@19"Copy InfoBanner.jpg323673695#323673696#0(0"0(0#0#56"/Users/sanchitbareja/Documents/ITCrowdPro/InfoBanner.jpg8611375072#493"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/sanchitbareja/Documents/ITCrowdPro/InfoBanner.jpg /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CCpResource build/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323673695.777039
+e323673695.861113
+r1
+xCpResource
+xbuild/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323673695#323673695#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3328773876851107328#526"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CCreateUniversalBinary /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro normal "armv6 armv7"
+s326528881.350960
+e326528881.354597
+r1
+xCreateUniversalBinary
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro normal "armv6 armv7"326528881#326528881#0(0"0(0#0#53"/Users/sanchitbareja/Documents/ITCrowdPro/armv6 armv78627872384#560"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro -output /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro0#
+
+CGenerateDSYMFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app.dSYM /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro
+s326528881.354723
+e326528881.410889
+r1
+xGenerateDSYMFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app.dSYM
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro
+lSLF07#2@108"GenerateDSYMFile build/Release-iphoneos/ITCrowdPro.app.dSYM build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro326528881#326528881#0(0"0(0#0#90"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro8627413472#384"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ITCrowdPro -o /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app.dSYM0#
+
+CLd /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro normal armv6
+s326528881.303901
+e326528881.350880
+r1
+xLd
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro
+xnormal
+xarmv6
+lSLF07#2@135"Link /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro326528881#326528881#0(0"0(0#0#0"8629645984#942"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -filelist /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv6/ITCrowdPro0#
+
+CLd /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro normal armv7
+s326528881.305098
+e326528881.350473
+r1
+xLd
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro
+xnormal
+xarmv7
+lSLF07#2@135"Link /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro326528881#326528881#0(0"0(0#0#0"8628485824#942"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -filelist /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/Objects-normal/armv7/ITCrowdPro0#
+
+CProcessInfoPlistFile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/Info.plist ITCrowdPro-Info.plist
+s326528969.005684
+e326528969.010524
+r1
+xProcessInfoPlistFile
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/Info.plist
+xITCrowdPro-Info.plist
+lSLF07#2@29"Process ITCrowdPro-Info.plist326528969#326528969#0(0"0(0#0#63"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro-Info.plist31244156213788784#592"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ITCrowdPro-Info.plist -genpkginfo /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/ResourceRules.plist -o /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/Info.plist0#
+
+CProcessPCH /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch.gch ITCrowdPro_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323673696.374655
+e323673697.730293
+r1
+xProcessPCH
+x/var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch.gch
+xITCrowdPro_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ITCrowdPro_Prefix.pch323673696#323673697#0(0"0(0#0#63"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro_Prefix.pch8608269344#1749"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv7 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro_Prefix.pch -o /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-awtvtbnjzjbnyzagqdfdqtafvnrf/ITCrowdPro_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch.gch ITCrowdPro_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323673696.373699
+e323673697.862627
+r1
+xProcessPCH
+x/var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch.gch
+xITCrowdPro_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile ITCrowdPro_Prefix.pch323673696#323673697#0(0"0(0#0#63"/Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro_Prefix.pch8610171552#1749"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-generated-files.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-own-target-headers.hmap -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-all-target-headers.hmap -iquote /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro-project-headers.hmap -F/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos -I/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/include -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources/armv6 -I/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sanchitbareja/Documents/ITCrowdPro/ITCrowdPro_Prefix.pch -o /var/folders/oQ/oQspy2pnE4WrvHOIq2Su5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ITCrowdPro_Prefix-dqxubctngccwhsdbgpqihcvrygir/ITCrowdPro_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision" /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+s323689007.806221
+e323689007.807651
+r1
+xProcessProductPackaging
+x/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision" build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision323689007#323689007#0(0"0(0#0#104"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision8619724320#442"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/A3FC9E8E-A26E-4F47-BE27-6667BC145368.mobileprovision" -o /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/AE17B948-27AC-4E9E-AA72-5FD117E88A8A.mobileprovision" /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+s323688951.158826
+e323688951.160423
+r1
+xProcessProductPackaging
+x/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/AE17B948-27AC-4E9E-AA72-5FD117E88A8A.mobileprovision
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/AE17B948-27AC-4E9E-AA72-5FD117E88A8A.mobileprovision" build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision323688951#323688951#0(0"0(0#0#104"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision8616532608#442"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/AE17B948-27AC-4E9E-AA72-5FD117E88A8A.mobileprovision" -o /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/C829BD41-C60F-461E-BB63-A6D212621417.mobileprovision" /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+s323673700.857263
+e323673700.858618
+r1
+xProcessProductPackaging
+x/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/C829BD41-C60F-461E-BB63-A6D212621417.mobileprovision
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision
+lSLF07#2@205"ProcessProductPackaging "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/C829BD41-C60F-461E-BB63-A6D212621417.mobileprovision" build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision323673700#323673700#0(0"0(0#0#104"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision8605941920#442"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sanchitbareja/Library/MobileDevice/Provisioning Profiles/C829BD41-C60F-461E-BB63-A6D212621417.mobileprovision" -o /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent
+s326528969.021231
+e326528969.041998
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent
+lSLF07#2@186"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent326528969#326528969#0(0"0(0#0#115"/Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent8596145504#449"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/sanchitbareja/Documents/ITCrowdPro/build/ITCrowdPro.build/Release-iphoneos/ITCrowdPro.build/ITCrowdPro.xcent0#
+
+CTouch /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+s326528969.016419
+e326528969.021092
+r1
+xTouch
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+lSLF07#2@85"Touch /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app326528969#326528969#0(0"0(0#0#0"8600552128#275"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+
+CValidate /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+s326528969.227982
+e326528969.340537
+r1
+xValidate
+x/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app
+o2011-05-08 14:29:29.244 Validation[77435:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@46"Validate build/Release-iphoneos/ITCrowdPro.app326528969#326528969#0(100"2011-05-08 14:29:29.244 Validation[77435:607] *** Warning: Defaulting to the standard codesign tool0(0#0#79"/Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app8632700992#384"    cd /Users/sanchitbareja/Documents/ITCrowdPro    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/sanchitbareja/Documents/ITCrowdPro/build/Release-iphoneos/ITCrowdPro.app0#
+

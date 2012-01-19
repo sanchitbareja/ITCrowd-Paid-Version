@@ -1,0 +1,14 @@
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController init]':
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:48: error: 'coord' undeclared (first use in this function)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:48: error: (Each undeclared identifier is reported only once
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:48: error: for each function it appears in.)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:49: error: 'span' undeclared (first use in this function)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController viewDidLoad]':
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:112: error: 'refreshAds' undeclared (first use in this function)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController dealloc]':
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:162: error: 'refreshAds' undeclared (first use in this function)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController mapView:viewForAnnotation:]':
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:187: warning: '-indexToLoad' not found in protocol(s)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m: In function '-[EateriesViewController refreshAdsAction]':
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:301: error: 'coord' undeclared (first use in this function)
+/Users/sanchitbareja/Documents/ITCrowdPro/Classes/EateriesViewController.m:302: error: 'span' undeclared (first use in this function)
